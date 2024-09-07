@@ -228,6 +228,11 @@ footer {
         max-width: 100%;
         margin: 20px;
     }
+    .lebar{
+    width: 100%;
+    margin: 20px auto;
+    margin-top: 5rem;
+    }
 }
 
 
