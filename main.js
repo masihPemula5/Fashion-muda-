@@ -3,7 +3,7 @@ function sendFeedback() {
     let feedback = document.getElementById('feedback').value;
 
     // Encode the feedback to be URL friendly
-    let encodedFeedback = encodeURIComponent(feedback);
+    let encodedFeedback = feedback;
 
     // Replace '628XXXXXX' with your actual WhatsApp number
     let phoneNumber = '6285885497377'; // Contoh nomor Indonesia
